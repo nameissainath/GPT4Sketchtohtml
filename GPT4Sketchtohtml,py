@@ -43,11 +43,11 @@ if st.sidebar.button("Analyze the Scientific Image"):
 
           # Construct the prompt for image to sketch analysis
             prompt_text = (
-                "You are an expert Tailwind CSS developer."
-                "A user has entrusted you with a low-fidelity wireframe of a web application and expects you to deliver a single HTML file. Your task is to utilize Tailwind CSS to bring this wireframe to life, creating a fully functional website that is both visually appealing and responsive."
-                "You have the creative freedom to use your expertise and artistic flair to enhance and refine the wireframe, making it more polished and user-friendly. Your goal is to provide the user with a comprehensive HTML file that reflects their vision."
-                "Remember to respond exclusively with the HTML file you create, showcasing your mastery of Tailwind CSS and your ability to transform wireframes into stunning web experiences."
-            )
+               "You are an expert tailwind developer."
+"A user will provide you with a low-fidelity wireframe of an application and you will return a single html file that uses tailwind to create the website."
+"Use creative license to make the application more fleshed out. "
+"Respond only with the html file."
+)
 
 
 
