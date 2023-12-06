@@ -16,7 +16,8 @@ st.title("✏️ Sketch to HTML: GPT-4 Web Wizard 🌐")
 # Creating a sidebar for user inputs, making it interactive and user-friendly
 
 st.sidebar.title("User Input")
-api_key = st.sidebar.text_input("Enter your OpenAI API Key")
+
+api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password")
 uploaded_file = st.sidebar.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 show_details = st.sidebar.checkbox("Add details about the image")
 
